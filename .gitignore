@@ -1,0 +1,22 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+terraform.tfvars
+.terraform/
+.terraform.lock.hcl
+
+# Local environment
+*.bak
+*.tmp
+*.swp
+.idea/
+.vscode/
+.DS_Store
+
+# OS files
+Thumbs.db
+ehthumbs.db
