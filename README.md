@@ -5,7 +5,7 @@ This Terraform project provisions a minimal AWS infrastructure consisting of:
 - **ECS Fargate service** running a containerized app on port `8080`.  
 - **RDS PostgreSQL** instance in private subnets.  
 - **AWS Secrets Manager** for storing DB credentials and injecting them into the container.  
-- (Optional) **Route53 Alias record** pointing a custom domain to the ALB.  
+- **Route53 Alias record** pointing a custom domain to the ALB.  
 
 ---
 
